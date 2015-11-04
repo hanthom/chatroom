@@ -7,19 +7,20 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('https://displate.com/displates/2014-04-21/ce4c3da6bc133bd77fb45bb94ca991e9.jpg?w=280&h=392&v=2');
+  background-image: url('https://thechive.files.wordpress.com/2012/08/beautiful-nature-landscapes-14.jpg');
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.56);
   padding: 5px;
   border-radius: 10px;
 }
 
 .main-container h1 {
   text-align: center;
+
 }
 
 .text-box {
@@ -31,4 +32,9 @@ p {
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.messages-container p {
+  color:green;
+ 
 }
