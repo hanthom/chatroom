@@ -7,13 +7,13 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('https://thechive.files.wordpress.com/2012/08/beautiful-nature-landscapes-14.jpg');
+  background-image: url('https://ethiopianonethiopian.files.wordpress.com/2014/05/t-rex-short-arms.png');
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.56);
+  background: rgba(255, 255, 255, 0.86);
   padding: 5px;
   border-radius: 10px;
 }
@@ -36,5 +36,9 @@ p {
 
 .messages-container p {
   color:green;
- 
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
 }

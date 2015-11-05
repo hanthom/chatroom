@@ -13,10 +13,15 @@
 
       <form ng-submit="postData()">
         <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
+        <input ng-model="search" placeholder="Search Messages" class="form-control text-box"/>
       </form>
+      <select ng-model="select">
+        <option value="true">Most Recent</option>
+        <option value="">Oldest</option>
+      </select>
 
       <div class="messages-container">
-        <p ng-repeat="message in messages"> {{message.text}}  {{message.createdAt | date: 'medium'}} </p>
+        <p ng-repeat="message in messages | orderBy: 'createdAt': select | filter: search"> {{message.text}} --- {{message.createdAt | date: 'medium'}} </p>
       </div>
 
     </div>
